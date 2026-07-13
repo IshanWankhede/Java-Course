@@ -116,5 +116,21 @@ public class String_NonPri {
         HEAP   → Objects
         POOL   → Special area inside Heap for Strings
          */
+
+        /*
+        Primitive Types
+↓
+        Stored directly (for local variables).
+
+        Arrays
+        ↓
+        Reference in Stack
+        Array Object in Heap
+
+        Strings
+        ↓
+        Reference in Stack
+        String object in Heap/String Pool
+         */
     }
 }
